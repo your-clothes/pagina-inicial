@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Your Clothes</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Your Clothes
+        </h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="modelo" src="img/fundocerto.webp">
+        </div> 
+        <div class="box-txt">
+            <span>VALORIZE-SE</span>
+            <h2>Expresse personalidade,<br>através da Moda</h2>
+            <p>Olá, prazer! Somos a Your Clothes. Prestamos uma consultoria de moda e estilo para você que quer construir uma imagem de sucesso. Nosso atendimento é exclusivamente online, para maiores informações chamar no direct ou entrar em contato por whatsapp. Atendimento personalizado para mulheres que buscam uma imagem conceitual.</p>
+            <a target="_blank" href="https://wa.me/5548991702424?text=Ol%C3%A1%21+Gostaria+de+fazer+meu+pedido." class="btn-hero">Peça já!</a>
+            </div>
+    </section> 
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Missão</h3>
+            <p>Acreditamos que qualidade é um valor inegociável. Cada costura, cada detalhe é minuciosamente inspecionado para garantir que nossas roupas não apenas sigam as tendências, mas também sejam duradouras e feitas para durar.</p>
+        </div>
+        <div class="box-item">
+            <h3>Inovação</h3>
+            <p>Abraçamos a inovação como a força motriz por trás de nossa coleção. Estamos sempre atentos às últimas tendências e tecnologias para oferecer a você roupas que se destacam pela originalidade e design único.</p>
+        </div>
+        <div class="box-item">
+            <h3>Valores</h3>
+            <p>A paixão está no cerne de tudo o que fazemos. Desde a escolha dos tecidos até o atendimento ao cliente, nossa paixão é evidente em cada detalhe. Queremos que você sinta a mesma empolgação que temos pela moda.</p>
+        </div>
+
+
+        <a target="_blank" href="https://wa.me/5548991702424?text=Ol%C3%A1%21+Gostaria+de+fazer+meu+pedido." class="m-top btn-hero">Peça já!</a>
+
+    </section>
+
+    <footer>
+        <p>2023 © Loja Your Clothes. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://wa.me/5548991702424?text=Ol%C3%A1%21+Gostaria+de+fazer+meu+pedido.">
+        <img width="50" src="img/whatsapp-logomarca7.png">
+        </a>
+    </div>
+
+    <script>
+        const modelo = document.getElementById('modelo');
+
+        modelo.addEventListener ('mouseover' , function(){
+            modelo.src = "img/fundocertovirado.webp";
+        });
+
+        modelo.addEventListener ('mouseout' , function(){
+            modelo.src = "img/fundocerto.webp";
+        });
+    </script>
+
+</body>
+</html>
